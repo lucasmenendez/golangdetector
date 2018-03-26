@@ -21,6 +21,4 @@ func TestDetect(t *testing.T) {
 			t.Errorf("Expected %f, got %f", expected[code], prob)
 		}
 	}
-
-	input = ""
 }
